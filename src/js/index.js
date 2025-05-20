@@ -1,4 +1,4 @@
-/* index.js */
+/* src/js/index.js */
 
 import '../styles/output.css';
 import { createIcons, icons } from 'lucide';
