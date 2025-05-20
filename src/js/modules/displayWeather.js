@@ -1,5 +1,7 @@
 // src/js/modules/displayWeather.js
 
+import { createIcons, icons } from 'lucide';
+
 export function displayWeather(weather) {
   const output = document.getElementById('weather-output');
   if (!output) return;
