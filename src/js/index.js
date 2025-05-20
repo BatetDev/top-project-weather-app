@@ -1,12 +1,13 @@
-/* src/js/index.js */
+// index.js
 
 import '../styles/output.css';
 import { fetchWeather } from './modules/api.js';
 import { processWeatherData } from './modules/processWeatherData.js';
-import { setupIcons } from './modules/icons.js'; // 👈 Updated import
+import { setupIcons } from './modules/icons.js';
+import { showLoading, hideLoading } from './modules/loading.js';
 
 document.addEventListener('DOMContentLoaded', () => {
-  setupIcons(); // 👈 More flexible and scalable
+  setupIcons();
 
   const form = document.getElementById('weather-form');
   const input = document.getElementById('location-input');
@@ -16,11 +17,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const location = input.value.trim();
     if (!location) return;
 
-    console.log('Fetching weather for:', location);
+    showLoading();
 
-    const rawData = await fetchWeather(location);
-    const weather = processWeatherData(rawData);
+    try {
+      const rawData = await fetchWeather(location);
+      const weather = processWeatherData(rawData);
+      console.log('Processed Weather Data:', weather);
+    } catch (error) {
+      console.error('Error fetching or processing weather:', error);
+      alert('Failed to fetch weather data.');
+    }
 
-    console.log('Processed Weather Data:', weather);
+    hideLoading();
   });
 });
