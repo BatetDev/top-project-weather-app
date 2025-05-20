@@ -1,20 +1,15 @@
 /* src/js/index.js */
 
 import '../styles/output.css';
-import { createIcons, icons } from 'lucide';
 import { fetchWeather } from './modules/api.js';
 import { processWeatherData } from './modules/processWeatherData.js';
+import { setupIcons } from './modules/icons.js'; // 👈 Updated import
 
 document.addEventListener('DOMContentLoaded', () => {
-  const iconSpan = document.getElementById('icon');
+  setupIcons(); // 👈 More flexible and scalable
+
   const form = document.getElementById('weather-form');
   const input = document.getElementById('location-input');
-
-  if (iconSpan) {
-    iconSpan.innerHTML =
-      '<i data-lucide="cloud-lightning" width="48" height="48" class="inline"></i>';
-    createIcons({ icons });
-  }
 
   form.addEventListener('submit', async (e) => {
     e.preventDefault();

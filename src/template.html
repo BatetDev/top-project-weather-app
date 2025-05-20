@@ -9,10 +9,11 @@
   <body
     class="bg-gray-950 text-white font-sans min-h-screen p-4 flex flex-col items-center justify-center"
   >
-    <main id="app">
-      <h1 class="text-3xl text-center font-bold mb-6">
-        Project: Weather App <span id="icon"></span>
-      </h1>
+<h1 class="text-3xl text-center font-bold mb-6">
+  Project: Weather App
+  <i data-lucide="skull" class="w-15 h-15 text-red-400 inline-block"></i>
+  <i data-lucide="cloud-lightning" class="w-15 h-15 text-cyan-200 inline-block"></i>
+</h1>
 
       <form
         id="weather-form"
@@ -33,10 +34,13 @@
         </button>
       </form>
 
-      <div id="loading" class="text-lg mb-4 text-center">
-        Loading weather...
+      <!-- Loading Message -->
+      <div id="loading" class="hidden text-lg mb-4 text-center">
+        Summoning the weather spirits...
       </div>
-      <div id="weather-output" class="text-center">Weather output.</div>
+
+      <!-- Current Weather Output -->
+      <div id="weather-output" class="text-center"></div>
     </main>
   </body>
 </html>
