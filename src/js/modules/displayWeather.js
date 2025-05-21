@@ -1,17 +1,20 @@
-// src/js/modules/displayWeather.js
+// displayWeather.js
 
 import { createIcons, icons } from 'lucide';
+import { mapIconName } from './mapIconName.js';
 
 export function displayWeather(weather) {
   const output = document.getElementById('weather-output');
   if (!output) return;
+
+  const lucideIcon = mapIconName(weather.icon);
 
   output.innerHTML = `
     <div class="bg-gray-900 p-6 rounded-md max-w-md w-full mx-auto shadow-lg border border-stone-700">
       <h2 class="text-2xl font-title text-accent mb-4">${weather.location}</h2>
       
       <div class="flex justify-center mb-4">
-        <i data-lucide="${weather.icon}" class="w-12 h-12 text-cyan-200"></i>
+        <i data-lucide="${lucideIcon}" class="w-20 h-20 text-purple-200"></i>
       </div>
 
       <p class="text-5xl font-bold mb-2">${weather.temperature}°C</p>
