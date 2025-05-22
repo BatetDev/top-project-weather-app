@@ -1,4 +1,4 @@
-// src/js/modules/processWeatherData.js
+// modules/processWeatherData.js
 
 export function processWeatherData(data) {
   const current = data.currentConditions;

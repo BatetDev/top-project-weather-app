@@ -1,4 +1,4 @@
-// src/js/modules/mapIconName.js
+// modules/mapIconName.js
 
 export function mapIconName(iconString = 'clear-day') {
   const iconMap = {

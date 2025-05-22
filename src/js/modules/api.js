@@ -1,4 +1,4 @@
-/* src/js/modules/api.js */
+/* modules/api.js */
 
 export async function fetchWeather(location = 'London') {
   const apiKey = 'DR8R9TFNZJNM2LKEGT5JHB6FC';

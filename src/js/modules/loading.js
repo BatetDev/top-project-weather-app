@@ -1,4 +1,4 @@
-//  src/js/modules/loading.js
+// modules/loading.js
 
 export function showLoading() {
   const loading = document.getElementById('loading');

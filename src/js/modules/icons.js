@@ -1,4 +1,4 @@
-// src/js/modules/icons.js
+// modules/icons.js
 
 import { createIcons, icons } from 'lucide';
 
