@@ -16,7 +16,7 @@ export function processWeatherData(data) {
     conditions: current.conditions || 'Clear',
     icon: current.icon || 'cloud',
     isDay: Boolean(current.sunrise || current.sunset),
-    precipAmount: current.precip ?? null,
+    precipAmount: current.precip.toFixed(1) ?? null,
     precipProb: current.precipprob ?? 0,
     unitSystem: 'metric',
   };
