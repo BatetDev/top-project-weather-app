@@ -21,6 +21,5 @@ export function processWeatherData(data) {
         ? Number(current.precip.toFixed(1))
         : null,
     precipProb: current.precipprob ?? 0,
-    unitSystem: 'metric',
   };
 }
