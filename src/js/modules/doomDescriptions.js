@@ -1,6 +1,7 @@
 // js/modules/doomDescriptions.js
 
 export const doomMap = {
+  // iconSet=icons1
   snow: "Snowflakes fall like teeth from heaven's jaw, biting the flesh of the living.",
   rain: 'Rain falls like the tears of forsaken gods, washing sins into the mud.',
   fog: 'The fog thickens — not with vapor, but with the weight of unseen eyes.',
@@ -14,6 +15,8 @@ export const doomMap = {
   'clear-day': 'The sun does not warm — it watches, judges, waits for failure.',
   'clear-night':
     'The moon hangs high — pale, distant, and full of knowing silence.',
+
+  // iconSet=icons2
   'thunder-rain':
     'Lightning carves jagged runes across the dark — a message none should read twice.',
   'thunder-showers-day':
@@ -54,7 +57,8 @@ export const doomMap = {
     'The sky does not pour — it *drips*, feeding the earth with sorrow too long contained.',
   'scattered-showers':
     'Rain falls where it pleases — never where it’s needed, always where it hurts.',
-  'few-thunderstorms': 'Clouds dream in fire, and stir in restless slumber.',
+  'few-thunderstorms':
+    'The clouds dream in fire, and stir in restless slumber.',
   unknown:
     'There is no forecast for this — only the hush before the unthinkable speaks.',
 };
