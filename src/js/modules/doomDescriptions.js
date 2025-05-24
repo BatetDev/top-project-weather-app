@@ -48,13 +48,13 @@ export const doomMap = {
   'mostly-clear':
     'Mostly clear, yet never clean — something stains this night beyond sight.',
   'mostly-cloudy':
-    'The clouds do not move — they *creep*, slow and deliberate as fate itself.',
+    'The clouds do not move — they creep, slow and deliberate as fate itself.',
   'scattered-clouds':
     'Fragments of sky remain — like memories too cruel to forget, too faded to trust.',
   'broken-clouds':
     'Clouds hang in tatters — remnants of something vast that once held together.',
   'few-showers':
-    'The sky does not pour — it *drips*, feeding the earth with sorrow too long contained.',
+    'The sky does not pour — it drips, feeding the earth with sorrow too long contained.',
   'scattered-showers':
     'Rain falls where it pleases — never where it’s needed, always where it hurts.',
   'few-thunderstorms':
