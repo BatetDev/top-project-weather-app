@@ -1,4 +1,4 @@
-// js/modules/doomDescriptions.js
+// modules/doomDescriptions.js
 
 export const doomMap = {
   // iconSet=icons1

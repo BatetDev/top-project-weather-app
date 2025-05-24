@@ -1,4 +1,4 @@
-// displayWeather.js
+// modules/displayWeather.js
 
 import { createIcons, icons } from 'lucide';
 import { mapIconName } from './mapIconName.js';
