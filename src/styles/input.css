@@ -1,6 +1,32 @@
+/* input.css */
 @import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=IM+Fell+English:ital@0;1&family=UnifrakturMaguntia&display=swap');
 
-/* Tailwind INFO */
-/* 
-https://tailwindcss.com/docs/installation/tailwind-cli 
-*/
+@layer utilities {
+  :root {
+    /* === HEADING OPTIONS (uncomment one) === */
+    --font-heading: 'UnifrakturMaguntia', serif; /* Blackletter */
+    /* --font-heading:
+      'IM Fell English', serif; /* Classic Gothic */
+    /* --font-heading: 'Cormorant SC', serif; */ /* Sharp serif */
+
+    /* === BODY OPTIONS (uncomment one) === */
+    --font-body: 'Crimson Pro', serif; /* Parchment texture */
+    /* --font-body: 'EB Garamond', serif; */ /* Elegant antique */
+
+    /* === MONO OPTIONS (uncomment one) === */
+    /* --font-mono: 'Syne Mono', monospace; */ /* Quirky typewriter */
+    /* --font-mono: 'Courier Prime', monospace; */ /* Clean terminal */
+  }
+
+  /* Apply variables */
+  .font-heading {
+    font-family: var(--font-heading, serif);
+  }
+  .font-body {
+    font-family: var(--font-body, serif);
+  }
+  .font-mono {
+    font-family: var(--font-mono, monospace);
+  }
+}
