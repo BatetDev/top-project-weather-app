@@ -20,18 +20,18 @@ export function displayWeather(weather) {
   const doomDescription = doomMap[weather.icon] || doomMap['unknown'];
 
   output.innerHTML = `
-    <div class="bg-orange-50 p-6 max-w-md w-full mx-auto border-4 border-double border-zinc-900 shadow-[5px_5px_0_0_rgba(24,24,27,1)]">
-      <h2 class="text-3xl font-heading text-zinc-900 mb-4 text-center tracking-tight">${weather.location}</h2>
+    <div class="bg-orange-100 p-4 max-w-md w-full mx-auto border-4 border-double border-zinc-900 shadow-[5px_5px_0_0_rgba(24,24,27,1)]">
+      <h2 class="text-3xl text-zinc-900 mb-4 text-center">${weather.location}</h2>
       
       <div class="flex justify-center mb-4">
-        <i data-lucide="${icon}" class="w-20 h-20 text-fuchsia-950"></i>
+        <i data-lucide="${icon}" class="w-16 h-16 text-fuchsia-950"></i>
       </div>
 
-      <p class="text-4xl font-heading mb-2 text-center">${weather.temperature}°C</p>
-      <p class="text-zinc-700 mb-4 text-center italic font-body">Feels like ${weather.feelsLike}°C</p>
+      <p class="text-3xl mb-2 text-center">${weather.temperature}°C</p>
+      <p class="text-zinc-800 mb-4 text-center font-body">Feels like ${weather.feelsLike}°C</p>
 
       <div class="space-y-2 text-left text-sm mb-4">
-        <p class="italic text-zinc-900 text-base text-center font-body bg-orange-100/50 px-4 py-3 mb-4 border border-zinc-900">${doomDescription}</p>
+        <p class="italic text-zinc-50 text-base text-center font-body bg-zinc-900 px-4 py-3 mb-4 border border-zinc-900 rounded-sm">${doomDescription}</p>
         
         <div class="font-body space-y-1 border-t-2 border-b-2 border-zinc-900 py-3 px-2">
           <p class="border-b border-zinc-800/30"><span class="text-zinc-800">Conditions:</span> ${weather.conditions}</p>
