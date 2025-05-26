@@ -7,14 +7,14 @@
     <title>Eldritch Forecast</title>
   </head>
   <body
-    class="bg-zinc-950 text-zinc-900 min-h-screen px-2 py-4 flex flex-col items-center justify-start font-body fold-medium"
+    class="bg-zinc-950 text-zinc-950/90 min-h-screen px-2 py-4 flex flex-col items-center justify-start font-body fold-medium"
   >
     <header
-      class="flex flex-col items-center justify-center gap-1 p-3 bg-orange-100 rounded-sm border-4 border-double border-zinc-900 shadow-[5px_5px_0_0_rgba(24,24,27,1)]"
+      class="flex flex-col items-center justify-center gap-1 p-3 bg-vintage-pattern rounded-sm border-4 border-double border-zinc-950/90 shadow-[5px_5px_0_0_rgba(24,24,27,1)]"
     >
       <h1 class="text-4xl text-center font-bold font-heading leading-tight">
         Eldritch<svg
-          class="inline-block w-18 h-18 ml-0.5 text-fuchsia-950 transform -rotate-3"
+          class="inline-block w-18 h-18 text-purple-950/90 transform -rotate-10"
         >
           <use
             href="assets/eldritchLogo.svg#eldritch-logo"
@@ -27,27 +27,27 @@
       </h1>
 
       <div
-        class="w-full max-w-xs border-t-2 border-b-2 border-zinc-900 my-2 py-1"
+        class="w-full max-w-xs border-t-2 border-b-2 border-zinc-950/90 my-2 py-1"
       >
-        <p class="text-sm text-center font-body italic">
+        <p class="text-sm text-center font-body italic tracking-wide">
           Daily Otherworldly Weather Reports
         </p>
       </div>
 
       <form
         id="weather-form"
-        class="mb-2 w-full max-w-md p-4 border border-zinc-900 bg-orange-100/50"
+        class="mb-2 w-full max-w-md p-4 border-4 border-double border-zinc-950/90 rounded-xs bg-orange-100"
       >
         <input
           type="text"
           id="location-input"
           placeholder="Enter city..."
           required
-          class="w-full p-2 rounded bg-orange-50 focus:outline-none focus:ring-2 focus:ring-red-700"
+          class="w-full p-1 bg-orange-50 border focus:outline-none focus:ring-2 focus:ring-zinc-700"
         />
         <button
           type="submit"
-          class="mt-2 w-full p-2 bg-zinc-900 hover:bg-fuchsia-800 text-white rounded cursor-pointer"
+          class="mt-2 w-full p-2 bg-zinc-900 hover:bg-purple-950 text-white rounded-xs border-zinc-900 uppercase cursor-pointer transition duration-200"
         >
           Fetch Weather
         </button>

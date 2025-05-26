@@ -20,7 +20,7 @@ export function displayWeather(weather) {
   const doomDescription = doomMap[weather.icon] || doomMap['unknown'];
 
   output.innerHTML = `
-    <div class="bg-orange-100 p-4 max-w-md w-full mx-auto border-4 border-double border-zinc-900 shadow-[5px_5px_0_0_rgba(24,24,27,1)]">
+    <div class="bg-vintage-pattern p-4 max-w-md w-full mx-auto border-4 border-double border-zinc-900 shadow-[5px_5px_0_0_rgba(24,24,27,1)]">
       <h2 class="text-3xl text-zinc-900 mb-4 text-center">${weather.location}</h2>
       
       <div class="flex justify-center mb-4">
