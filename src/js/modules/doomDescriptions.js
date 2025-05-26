@@ -9,7 +9,7 @@ export const doomMap = {
   cloudy:
     'The clouds embroider the sky with false memories — their horrid tapestry peeling at the edges.',
   'partly-cloudy-day':
-    "The sun writhes in the clouds' jaws — a dying star leaking feeble light onto the earth below.",
+    "The sun writhes in the clouds' jaws — a dying star leaking light onto the earth below.",
   'partly-cloudy-night':
     'In the gaps of the cloud-veil, constellations shift like the pupils of a waking leviathan.',
   'clear-day':

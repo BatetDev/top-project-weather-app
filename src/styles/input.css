@@ -1,21 +1,16 @@
 /* input.css */
 @import 'tailwindcss';
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=IM+Fell+English:ital@0;1&family=UnifrakturMaguntia&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&family=UnifrakturMaguntia&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=IM+Fell+English:ital@0;1&display=swap');
 
 @layer utilities {
   :root {
-    /* === HEADING OPTIONS (uncomment one) === */
-    --font-heading: 'UnifrakturMaguntia', serif; /* Blackletter */
-    /* --font-heading:
-      'IM Fell English', serif; /* Classic Gothic */
-    /* --font-heading: 'Cormorant SC', serif; */ /* Sharp serif */
+    --font-heading: 'UnifrakturMaguntia', serif;
 
-    /* === BODY OPTIONS (uncomment one) === */
-    --font-body: 'Crimson Pro', serif; /* Parchment texture */
-    /* --font-body: 'EB Garamond', serif; */ /* Elegant antique */
+    --font-body: 'IM Fell English', sans;
 
-    /* === MONO OPTIONS (uncomment one) === */
-    /* --font-mono: 'Syne Mono', monospace; */ /* Quirky typewriter */
     /* --font-mono: 'Courier Prime', monospace; */ /* Clean terminal */
   }
 
@@ -25,6 +20,7 @@
   }
   .font-body {
     font-family: var(--font-body, serif);
+    font-size: 1rem;
   }
   .font-mono {
     font-family: var(--font-mono, monospace);
