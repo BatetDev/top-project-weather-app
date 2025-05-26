@@ -2,65 +2,65 @@
 
 export const doomMap = {
   // iconSet=icons1
-  snow: "Snowflakes descend like teeth from heaven's maw, gnawing at the flesh of the living.",
-  rain: 'Rain spills like the weeping of forgotten gods, dragging sins down into the mire.',
-  fog: 'The fog gathers — not as mist, but as the breath of unseen watchers.',
-  wind: 'The wind howls like a chorus of damned souls dragged across the sky on rusted chains.',
+  snow: "Snowflakes descend like teeth from heaven's maw — gnawing at the flesh of the living.",
+  rain: 'The storm weeps like a blind celestial eye — its tears eroding the edges of reality.',
+  fog: 'The fog gathers, not as mist, but as the breath of unseen watchers.',
+  wind: 'The wind doesn’t blow — it remembers, and what it remembers would unmake mountains.',
   cloudy:
-    'No sun dares show itself — only a shroud of ashen clouds and prayers gone unanswered.',
+    'The clouds embroider the sky with false memories — their horrid tapestry peeling at the edges.',
   'partly-cloudy-day':
-    'The sun struggles through ashen skies — a dying eye witnessing a world beyond redemption.',
+    "The sun writhes in the clouds' jaws — a dying star leaking feeble light onto the earth below.",
   'partly-cloudy-night':
-    'Between torn clouds, the stars stare down like cold and pitiless deities.',
+    'In the gaps of the cloud-veil, constellations shift like the pupils of a waking leviathan.',
   'clear-day':
-    "The sun hangs like an executioner's blade—polished bright, patient, inevitable.",
+    'The sun burns like an opened singularity — hungry, dimensionless, inescapable.',
   'clear-night':
     'The moon looms — pallid, aloof, heavy with unspoken verdicts.',
 
   // iconSet=icons2
   'thunder-rain':
-    "The storm doesn't speak—it screams in white-hot runes, branding the skies with primordial fury.",
+    "The storm doesn't speak — it screams in white-hot runes, branding the skies with primordial fury.",
   'thunder-showers-day':
-    "The sun hangs limp in the storm's jaws - a golden fruit punctured and dripping weak light onto the earth below.",
+    'The sun chokes in the storm’s gullet — a drowning god vomiting thin, anemic light onto the trembling earth.',
   'thunder-showers-night':
-    'The storm chants in languages predating man — while the night leans in, eager to learn.',
+    "The tempest recites the universe's first scream — the abyss between stars humming in resonance.",
   'snow-showers-day':
-    'The sky sheds frozen tears by daylight — grieving for graves even the earth has forgotten.',
+    'Daylight weeps glacial fragments — the ice whispering names of cities even the earth has forgotten.',
   'snow-showers-night':
     'Snow falls like ash from some celestial pyre — the dark altar of night still smoldering.',
   'showers-day':
-    "Drizzle falls like the muffled sobs of a universe that's just realized its own insignificance.",
+    "Drizzle falls like the muffled sobs of a universe — one that's just realized its own insignificance.",
   'showers-night':
-    'What falls tonight isn’t rain — it’s the night sweating out its fevers, its regrets, its sins.',
-  hail: 'The clouds vomit shards of something older than snow — pain carved into crystal.',
+    "What drips from the stars isn't water — it's the cosmos weeping rust, entropy, and forgotten names.",
+  hail: "What falls isn't hail — it's the sky's discarded scales, each one etched with blasphemous glyphs.",
   tornado:
-    'The tornado moves like a question mark written by God’s shaking hand — and we’re the period beneath it.',
+    "The tornado twists like a screw through reality's membrane — we're just debris caught in the threads.",
   'mixed-rain-hail':
-    'The sky can’t decide whether to drown you or stone you — so it tries both at once.',
+    "The storm can't decide whether to drown you or stone you — so it tries both at once.",
   'freezing-rain':
-    'The rain falls as absolution—then freezes into excommunication.',
+    'The rain offers false baptism — its frozen aftermath a prison of glistening heresy.',
   'light-freezing-rain':
-    'The first freeze is always the gentlest—like a lover’s breath before the knife slips in.',
+    "The first freeze is always the gentlest — like a lover's breath before the knife slips in.",
   'ice-fog':
     'Fog and frost entwine like doomed lovers — their embrace leaving glassy scars on everything they touch.',
   'blowing-snow':
-    "The wind doesn't carry the snow—it wears it as a screaming mantle, flaying everything it touches.",
+    "The wind doesn't carry the snow — it wears it as a screaming mantle, flaying everything it touches.",
   overcast:
-    'The clouds stitch the sky shut with gray thread—no light escapes their suffocating weave.',
+    'The overcast embroiders reality with wrongness — its dreadful pattern unravels as you watch.',
   'mostly-clear':
-    'The clarity feels deliberate—like a predator clearing brush to better see its prey.',
+    "The sky's emptiness is a snare — an engineered void waiting to be filled with revelations.",
   'mostly-cloudy':
-    'The clouds don’t drift — they stalk, with the terrible patience of something that knows how this ends.',
+    "The clouds don't drift — they stalk, with the terrible patience of something that knows how this ends.",
   'scattered-clouds':
-    'The sky isn’t cloudy — it’s censored, with only the most terrible truths left visible.',
+    "The atmosphere isn't partly cloudy — it's self-censoring, its gaps revealing accidental horrors.",
   'broken-clouds':
-    'The clouds hang like torn battle standards—whatever war raged here was lost before you were born.',
+    'The cloud fragments drift like debris from an alien armada — their battle terminated eons past.',
   'few-showers':
-    'The showers continue their work—methodically dissolving the glue that holds reality together.',
+    'The scarce showers perform their duty — dissolving the mortar between dimensions one droplet at a time.',
   'scattered-showers':
-    'Rain falls where it pleases — never where it’s needed, always where it hurts.',
+    "Rain falls where it pleases — never where it's needed, always where it hurts.",
   'few-thunderstorms':
-    "The storm isn't approaching—it's unfolding, like a flower made of live wires and bad omens.",
+    "The lightning doesn't strike — it blossoms, each branch solving terrible equations in the air.",
   unknown:
-    'The instruments have stopped lying. There is no weather anymore—only the growing certainty that something has begun breathing just beyond the sky.',
+    "The readouts have gone quiet. This isn't calm — it's the pause while the universe reloads its parameters.",
 };
