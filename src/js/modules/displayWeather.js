@@ -31,12 +31,12 @@ export function displayWeather(weather) {
       <p class="text-zinc-900/90 text-center italic mb-4">Feels like ${weather.feelsLike}°C</p>
 
       <div class="space-y-2 text-left mb-4">
-        <p class="italic text-zinc-50 text-center leading-tight bg-zinc-950/95 p-3 mb-4 border border-zinc-900/90 rounded-xs">${doomDescription}</p>
+        <p class="italic text-zinc-50 text-center leading-tight bg-zinc-950/95 p-3 mb-4 border border-zinc-900/90 rounded-sm">${doomDescription}</p>
         
         <div class="font-body space-y-1 border-t-2 border-b-2 border-zinc-900/90 py-3 px-1.5">
-          <p class="border-b border-zinc-800/40"><span class="text-zinc-800/90"><strong>Conditions:</strong></span> ${weather.conditions}</p>
-          <p class="border-b border-zinc-800/40"><span class="text-zinc-800/90"><strong>Humidity:</strong></span> ${weather.humidity}%</p>
-          <p class="border-b border-zinc-800/40"><span class="text-zinc-800/90"><strong>Wind Speed:</strong></span> ${weather.windSpeed} km/h</p>
+          <p class="border-b border-zinc-800/40"><span class="text-zinc-800/90">Conditions:</span> ${weather.conditions}</p>
+          <p class="border-b border-zinc-800/40"><span class="text-zinc-800/90">Humidity:</span> ${weather.humidity}%</p>
+          <p class="border-b border-zinc-800/40"><span class="text-zinc-800/90">Wind Speed:</span> ${weather.windSpeed} km/h</p>
           ${precipHTML}
         </div>
       </div>
