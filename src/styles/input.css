@@ -11,21 +11,16 @@
 
     --font-body: 'IM Fell English', sans;
 
-    /* --font-mono: 'Courier Prime', monospace; */ /* Clean terminal */
-
     --bg-pattern: #ffedd4
-      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%2318181b' fill-opacity='0.075' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%2318181b' fill-opacity='0.08' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
   }
 
-  /* Apply variables */
   .font-heading {
     font-family: var(--font-heading, serif);
   }
+
   .font-body {
     font-family: var(--font-body, serif);
-  }
-  .font-mono {
-    font-family: var(--font-mono, monospace);
   }
 
   .bg-vintage-pattern {

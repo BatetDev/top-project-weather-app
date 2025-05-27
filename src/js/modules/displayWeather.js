@@ -24,14 +24,14 @@ export function displayWeather(weather) {
       <h2 class="text-3xl text-zinc-900 mb-4 text-center">${weather.location}</h2>
       
       <div class="flex justify-center mb-4">
-        <i data-lucide="${icon}" class="w-16 h-16 text-fuchsia-950"></i>
+        <i data-lucide="${icon}" class="w-16 h-16 text-purple-950/90"></i>
       </div>
 
       <p class="text-3xl mb-2 text-center">${weather.temperature}°C</p>
       <p class="text-zinc-800 mb-4 text-center font-body">Feels like ${weather.feelsLike}°C</p>
 
       <div class="space-y-2 text-left text-sm mb-4">
-        <p class="italic text-zinc-50 text-base text-center font-body bg-zinc-900 px-4 py-3 mb-4 border border-zinc-900 rounded-sm">${doomDescription}</p>
+        <p class="italic text-zinc-50 text-lg text-center font-body bg-zinc-900 px-4 py-3 mb-4 border border-zinc-900 rounded-sm">"${doomDescription}"</p>
         
         <div class="font-body space-y-1 border-t-2 border-b-2 border-zinc-900 py-3 px-2">
           <p class="border-b border-zinc-800/30"><span class="text-zinc-800">Conditions:</span> ${weather.conditions}</p>
