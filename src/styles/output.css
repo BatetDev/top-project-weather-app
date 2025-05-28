@@ -216,6 +216,9 @@
   }
 }
 @layer utilities {
+  .visible {
+    visibility: visible;
+  }
   .fixed {
     position: fixed;
   }
@@ -642,6 +645,9 @@
   }
   .text-zinc-50 {
     color: var(--color-zinc-50);
+  }
+  .text-zinc-200 {
+    color: var(--color-zinc-200);
   }
   .text-zinc-300 {
     color: var(--color-zinc-300);
