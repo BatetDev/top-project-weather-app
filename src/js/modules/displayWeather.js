@@ -31,7 +31,7 @@ export function displayWeather(weather) {
     <p class="text-lg xs:text-xl md:text-2xl text-zinc-900/90 text-center font-body italic mb-4 md:mb-6">Feels like ${weather.feelsLike}°C</p>
 
     <div class="flex flex-col items-center mb-4">
-      <p class="italic text-zinc-50 text-center xs:text-xl md:text-2xl leading-tight md:leading-snug tracking-wide bg-zinc-950/95 px-2 xs:px-2.5 md:px-4 py-4 md:py-8 mb-4 md:mb-6 border border-transparent rounded-xs md:rounded-sm max-w-md font-body">${doomDescription}</p>
+      <p class="italic text-zinc-50 text-center xs:text-xl md:text-2xl leading-snug md:leading-normal tracking-wide bg-zinc-950/95 px-2 xs:px-2.5 md:px-4 py-4 md:py-8 mb-4 md:mb-6 border border-transparent rounded-xs md:rounded-sm max-w-md font-body">${doomDescription}</p>
       
       <div class="w-full font-body md:text-xl space-y-1.5 border-t-2 border-b-2 border-zinc-900/90 py-3 md:py-4 px-2 md:px-3">
         <p class="border-b border-zinc-800/30 pb-1"><span class="text-zinc-800">Conditions:</span> ${weather.conditions}</p>

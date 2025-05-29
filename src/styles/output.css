@@ -43,6 +43,7 @@
     --tracking-wider: 0.05em;
     --leading-tight: 1.25;
     --leading-snug: 1.375;
+    --leading-normal: 1.5;
     --radius-xs: 0.125rem;
     --radius-sm: 0.25rem;
     --radius-md: 0.375rem;
@@ -497,6 +498,10 @@
     --tw-leading: 1;
     line-height: 1;
   }
+  .leading-snug {
+    --tw-leading: var(--leading-snug);
+    line-height: var(--leading-snug);
+  }
   .leading-tight {
     --tw-leading: var(--leading-tight);
     line-height: var(--leading-tight);
@@ -940,6 +945,12 @@
     @media (width >= 48rem) {
       --tw-leading: calc(var(--spacing) * 5);
       line-height: calc(var(--spacing) * 5);
+    }
+  }
+  .md\:leading-normal {
+    @media (width >= 48rem) {
+      --tw-leading: var(--leading-normal);
+      line-height: var(--leading-normal);
     }
   }
   .md\:leading-snug {
