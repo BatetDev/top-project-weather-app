@@ -78,6 +78,8 @@ npm run build
 # Deploy to gh-pages
 npm run publish
 
+```
+
 ## Credits
 
 - Original project by: [The Odin Project](https://www.theodinproject.com/lessons/node-path-javascript-weather-app)
@@ -85,4 +87,3 @@ npm run publish
 - Icons: [Lucide Icons](https://lucide.dev/)
 - Background pattern by: [Hero Patterns](https://heropatterns.com/)
 - Logo generated with: [Leonardo.AI](https://leonardo.ai/)
-```
