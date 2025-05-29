@@ -30,7 +30,7 @@ export const doomMap = {
   'snow-showers-night':
     'Snow falls like ash from some celestial pyre — the dark altar of night still smoldering.',
   'showers-day':
-    "Drizzle falls like the muffled sobs of a universe — one that's just realized its own insignificance.",
+    "Drizzle falls like the muffled sobs of a universe that's just realized its own insignificance.",
   'showers-night':
     "What drips from the stars isn't water — it's the cosmos weeping rust, entropy, and forgotten names.",
   hail: "What falls isn't hail — it's the sky's discarded scales, each one etched with blasphemous glyphs.",
