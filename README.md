@@ -36,7 +36,7 @@ Built as part of The Odin Project’s JavaScript curriculum, Project: Weather Ap
 
 - ✅ Fetch current weather for any city
 - 📦 Modular JavaScript architecture
-- 🌑 Cosmic Horror-infused descriptions for every condition
+- 🌑 Cosmic Horror-infused descriptions
 - 🌩 Dynamic icon mapping via Lucide Icons
 - 📱 Mobile-first responsive design
 
