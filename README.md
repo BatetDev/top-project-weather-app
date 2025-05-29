@@ -4,7 +4,7 @@
 
 ![Logo](src/assets/logo.jpg)
 
-## A Cosmic Horor Doom-Lit Weather App
+## A Cosmic Horror Doom-Lit Weather App
 
 **Built with:**
 
@@ -28,9 +28,8 @@ Built as part of The Odin Project’s JavaScript curriculum, this project emphas
 
 - Modular structure
 - Async/await logic
-- API integration
+- Visual Crossing API integration
 - TailwindCSS styling
-- Custom icon mapping
 
 ---
 
