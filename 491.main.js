@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkwebpack_starter=self.webpackChunkwebpack_starter||[]).push([[491],{491:(e,t,n)=>{n.r(t),n.d(t,{hideLoading:()=>i,showLoading:()=>s});var a=!1,d=500;function s(){var e=document.getElementById("loading");e&&!a&&(a=!0,e.classList.remove("hidden"))}function i(){a&&setTimeout((function(){var e=document.getElementById("loading");e&&e.classList.add("hidden"),a=!1}),d)}}}]);
-//# sourceMappingURL=491.main.js.map
