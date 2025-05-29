@@ -1,9 +1,8 @@
 // modules/loading.js
-
-let isLoading = false;
-let timeoutId;
+// Manage loading spinner visibility with minimum display time guarantee
 
 const MIN_LOADING_TIME = 500; // ms
+let isLoading = false;
 
 export function showLoading() {
   const loading = document.getElementById('loading');

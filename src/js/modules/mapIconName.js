@@ -1,4 +1,5 @@
 // modules/mapIconName.js
+// Maps Visual Crossing API weather icons to Lucide icon names.
 
 export function mapIconName(iconString = 'clear-day') {
   const iconMap = {

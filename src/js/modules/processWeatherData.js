@@ -1,4 +1,5 @@
 // modules/processWeatherData.js
+// Transform raw Visual Crossing API data into a standardized format for the UI
 
 export function processWeatherData(data) {
   const current = data.currentConditions;

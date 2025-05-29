@@ -1,4 +1,5 @@
 // modules/displayWeather.js
+// Renders weather data to the DOM
 
 import { createIcons, icons } from 'lucide';
 import { mapIconName } from './mapIconName.js';

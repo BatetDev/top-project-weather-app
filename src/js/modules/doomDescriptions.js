@@ -1,4 +1,5 @@
 // modules/doomDescriptions.js
+// Cosmic horror-themed descriptions for weather icons
 
 export const doomMap = {
   // iconSet=icons1
