@@ -4,7 +4,7 @@
 
 ![Logo](src/assets/logo.jpg)
 
-## A Cosmic Horror-infused Weather App
+## Cosmic Horror-infused Weather App
 
 **Built with:**
 
@@ -22,14 +22,13 @@
 
 ## About
 
-A weather app that fetches real-time data from the Visual Crossing API and renders them with **dreary cosmic horror descriptions**, **Lucide icons**, and an **Vintage Gazette-style UI**.
+A weather app that fetches real-time data from the Visual Crossing API and renders them with **dreary cosmic horror descriptions**, **Lucide icons**, and a **Vintage Gazette-style UI**.
 
-Built as part of The Odin Project’s JavaScript curriculum, this project emphasizes:
+Built as part of The Odin Project’s JavaScript curriculum, Project: Weather App emphasizes:
 
 - Modular structure
 - Async/await logic
 - Visual Crossing API integration
-- TailwindCSS styling
 
 ---
 
@@ -39,7 +38,6 @@ Built as part of The Odin Project’s JavaScript curriculum, this project emphas
 - 📦 Modular JavaScript architecture
 - 🌑 Cosmic Horror-infused descriptions for every condition
 - 🌩 Dynamic icon mapping via Lucide Icons
-- 💧 Precipitation chance + amount display
 - 📱 Mobile-first responsive design
 
 ---
