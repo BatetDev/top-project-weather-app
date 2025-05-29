@@ -1,5 +1,5 @@
 // index.js
-// Set up weather app UI and handles form submission
+// Set up weather app UI and handle form submission
 
 import '../styles/output.css';
 import { createIcons, icons } from 'lucide';
