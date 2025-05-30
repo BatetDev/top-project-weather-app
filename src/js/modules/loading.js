@@ -1,3 +1,6 @@
+// modules/loading.js
+// Control loading component hidden/visible state
+
 let isLoading = false;
 const MIN_LOADING_TIME = 750; // ms
 
