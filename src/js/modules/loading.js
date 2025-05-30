@@ -1,27 +1,31 @@
-// modules/loading.js
-// Manage loading spinner visibility with minimum display time guarantee
-
-const MIN_LOADING_TIME = 500; // ms
 let isLoading = false;
+const MIN_LOADING_TIME = 750; // ms
 
 export function showLoading() {
   const loading = document.getElementById('loading');
+  if (!loading || isLoading) return;
 
-  if (loading && !isLoading) {
-    isLoading = true;
-    loading.classList.remove('hidden');
-  }
+  loading.classList.remove('opacity-0', 'opacity-100', 'hidden');
+  void loading.offsetWidth;
+  loading.classList.add('opacity-100');
+
+  isLoading = true;
 }
 
 export function hideLoading() {
   if (!isLoading) return;
 
-  // Spinner stays visible for at least 500ms
+  const loading = document.getElementById('loading');
+  if (!loading) {
+    isLoading = false;
+    return;
+  }
+
+  loading.classList.remove('opacity-100');
+  loading.classList.add('opacity-0');
+
   setTimeout(() => {
-    const loading = document.getElementById('loading');
-    if (loading) {
-      loading.classList.add('hidden');
-    }
+    loading.classList.add('hidden');
     isLoading = false;
   }, MIN_LOADING_TIME);
 }
