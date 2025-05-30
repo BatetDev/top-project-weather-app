@@ -10,10 +10,10 @@ export function displayWeather(weather) {
   if (!output) return;
 
   let precipHTML = '';
-  if (weather.precipProb > 0 && weather.precipAmount > 0) {
+  if (weather.precipProb > 0 || weather.precipAmount > 0) {
     precipHTML = `
-      <p class="border-b border-zinc-800/40"><span class="text-zinc-800/90">Precipitation:</span> ${weather.precipAmount} mm</p>
-      <p class="border-b border-zinc-800/40"><span class="text-zinc-800/90">Chance of Rain:</span> ${weather.precipProb}%</p>
+      <p class="border-b border-zinc-800/30"><span class="text-zinc-800/90">Precipitation:</span> ${weather.precipAmount} mm</p>
+      <p class="border-b border-zinc-800/30"><span class="text-zinc-800/90">Chance of Rain:</span> ${weather.precipProb}%</p>
     `;
   }
 
