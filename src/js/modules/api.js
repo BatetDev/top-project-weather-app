@@ -18,8 +18,6 @@ export async function fetchWeather(location = 'Newburyport') {
     return data;
   } catch (error) {
     console.error('Error fetching weather data:', error);
-    if (errorDiv) {
-      throw error;
-    }
+    throw error;
   }
 }
