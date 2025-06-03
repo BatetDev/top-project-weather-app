@@ -16,7 +16,6 @@ export function processWeatherData(data) {
     windSpeed: Number(current.windspeed?.toFixed(1) || 0),
     conditions: current.conditions || 'Clear',
     icon: current.icon || 'cloud',
-    isDay: Boolean(current.sunrise || current.sunset),
     precipAmount:
       current.precip !== null && current.precip !== undefined
         ? Number(current.precip.toFixed(1))
