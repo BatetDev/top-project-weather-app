@@ -39,8 +39,8 @@ document.addEventListener('DOMContentLoaded', () => {
         errorDiv.textContent = 'Failed to fetch weather data.';
         errorDiv.classList.remove('hidden');
       }
+    } finally {
+      hideLoading();
     }
-
-    hideLoading();
   });
 });
