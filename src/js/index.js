@@ -19,6 +19,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const location = input.value.trim();
     if (!location) return;
 
+    const errorDiv = document.getElementById('error-message');
+    if (errorDiv) {
+      errorDiv.classList.add('hidden');
+      errorDiv.textContent = '';
+    }
+
     showLoading();
 
     try {
@@ -28,7 +34,11 @@ document.addEventListener('DOMContentLoaded', () => {
       displayWeather(weather);
     } catch (error) {
       console.error('Error fetching or processing weather:', error);
-      alert('Failed to fetch weather data.');
+      const errorDiv = document.getElementById('error-message');
+      if (errorDiv) {
+        errorDiv.textContent = 'Failed to fetch weather data.';
+        errorDiv.classList.remove('hidden');
+      }
     }
 
     hideLoading();
