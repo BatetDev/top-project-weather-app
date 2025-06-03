@@ -1,7 +1,7 @@
 // modules/api.js
 // Fetch raw weather data from Visual Crossing API
 
-export async function fetchWeather(location = 'Newburyport') {
+export async function fetchWeather(location) {
   const apiKey = 'DR8R9TFNZJNM2LKEGT5JHB6FC';
   const url = `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${encodeURIComponent(location)}?key=${apiKey}&unitGroup=metric&iconSet=icons2`;
 
