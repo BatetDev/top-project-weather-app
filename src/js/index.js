@@ -34,7 +34,6 @@ document.addEventListener('DOMContentLoaded', () => {
       displayWeather(weather);
     } catch (error) {
       console.error('Error fetching or processing weather:', error);
-      const errorDiv = document.getElementById('error-message');
       if (errorDiv) {
         errorDiv.textContent = 'Failed to fetch weather data.';
         errorDiv.classList.remove('hidden');
